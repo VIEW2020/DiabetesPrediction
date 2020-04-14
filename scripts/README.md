@@ -26,3 +26,9 @@ Examine each visit and apply exclusion criteria. Continue with each nth visit to
 
 ## To Do
 see issue #1
+
+### Preparation Scripts
+Linkage preparation scripts <a href="https://github.com/VIEW2020/Predict/tree/master/Linkage" target="_blank">
+located in Predict repository
+</a>
+
