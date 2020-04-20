@@ -8,12 +8,25 @@ DAP diabetes risk prediction.docx
 - ICD9_to_10_forward_key.xlsx (current MoH ICD9 to ICD10.v1 mapping key)
 
 ### Non-standard Classes
-Incorporates all codes within subcategory
-- hx.af            <- "^I48"
-- hx.gest.diabetes <- "^O2441"
-- hx.polycys.ovary <- "^E282"
-- hx.rheuma.arthri <- "^M06"
-- hx.asthma        <- "^J45"
-- hx.hyperthyroid  <- "^E059"
-- hx.hep.c         <- "^B182" 
+```r
+#Incorporates all codes within subcategory
+hx.af            <- "^I48"
+hx.gest.diabetes <- "^O2441"
+hx.polycys.ovary <- "^E282"
+hx.rheuma.arthri <- "^M06"
+hx.gout          <- "^M10"
+hx.copd          <- "^J44" 
+hx.asthma        <- "^J45"
+hx.hyperthyroid  <- "^E059"
+hx.hep.c         <- "^B182"
+```
+
+### Medication
+```r
+#COPD
+lama <- c(Tiotropium, Glycopyrronium, Umeclidinium)
+laba <- c(Salmeterol, Eformoterol, Indacaterol)
+labaics   <- c(Salmeterol.fluticasone, Eformoterol.budesonide, Vilanterol.fluticasone)
+lamalaba  <- c(Tiotropium.olodaterol, Glycopyrronium.indacaterol, Umeclidinium.vilanterol)
+```
 
