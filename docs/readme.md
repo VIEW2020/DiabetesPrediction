@@ -17,7 +17,7 @@ hx.rheuma.arthri <- "^M06"
 hx.gout          <- "^M10"
 hx.copd          <- "^J44" 
 hx.asthma        <- "^J45"
-hx.hyperthyroid  <- "^E059"
+hx.hyperthyroid  <- "^E05"
 hx.hep.c         <- "^B182"
 ```
 
