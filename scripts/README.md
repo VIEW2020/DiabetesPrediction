@@ -22,8 +22,9 @@ Examine each visit and apply exclusion criteria. Continue with each nth visit to
 - Remove out of age Limits 25-74: -14806
 - Remove non-avaliable HbA1c within +30 days of Predict: -75764
 - Remove dispensing records 1 month beyond DOD :-107
-- Remove exclusions detected within 30 days of study index: 190
-- Total Remaining = 277880
+- Remove people with renal dialysis & transplantation: -826
+- Remove exclusions detected within 30 days of study index: -179
+- Total Remaining = 277075
 
 ### Preparation Scripts
 Linkage preparation scripts <a href="https://github.com/VIEW2020/Predict/tree/master/Linkage" target="_blank">
